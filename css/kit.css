@@ -938,3 +938,27 @@ font-family: 'GOTHICB';
   font-size: 15px;
   margin-top: 50px;
 }
+.login{
+  position: absolute;
+right: 100px;
+top: 19px;
+color: #fff;
+font-size: 15px;
+  font-family: 'GOTHIC';
+  transition: all 0.4s ease;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ -ms-transition: all 0.4s ease;
+}
+.login:hover{
+  color: #31B0BC;
+  transition: all 0.4s ease;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ -ms-transition: all 0.4s ease;
+}
+.login span{
+  margin-left: 12px;
+}
