@@ -11,10 +11,11 @@ outline: 0 !important;
 body {
 	-webkit-font-smoothing: antialiased;
 }
-header{
-  height: auto !important;
-  position: relative;
-}
+header {
+    position: relative;
+    background: #000;
+    height: 64px !important;
+  }
 .social a span{
   position: relative;
   top: 1px;
@@ -189,6 +190,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-size: 14px;
   font-family: 'GOTHIC';
 }
+.show_case .container{
+  padding: 0;
+}
 .show_case .slide_generic{
 width: 20%;
 height: 600px;
@@ -318,11 +322,11 @@ footer a:hover{
  -o-transition: all 0.4s ease;
  -ms-transition: all 0.4s ease;
 }
-.social{
-width: auto;
-position: absolute;
-left: 0;
-padding: 0 40px;
+.social {
+    width: auto;
+    position: absolute;
+    left: 0;
+    padding: 22px 40px;
 }
 .social a {
     padding: 8px 10px;
