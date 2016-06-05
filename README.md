@@ -1,4 +1,2 @@
 # master-website
-sitio web en desarrollo
-# mastergt
-# mastergt
+Website designed and developed for the company Master Productions . All rights reserved 2016
