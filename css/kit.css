@@ -114,6 +114,9 @@ nav {
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
 }
+.cd-cart-items li .active{
+    background: #31afbf;
+}
 .cd-cart-items li a:hover{
   background: #31afbf;
    transition: all 0.4s ease;
@@ -428,6 +431,12 @@ footer a:hover{
     left: 0;
     background: url(../images/slide1.jpg) 50%;
     background-size: cover;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.bl-main > section:first-child:hover{
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
 }
 
 .bl-main > section:nth-child(2) {
@@ -435,6 +444,12 @@ footer a:hover{
   left: 20%;
   background: url(../images/slide2.jpg) 50%;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+.bl-main > section:nth-child(2):hover{
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
 }
 
 .bl-main > section:nth-child(3) {
@@ -442,22 +457,37 @@ footer a:hover{
   left: 40%;
   background: url(../images/slide3.jpg) 50%;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
 }
-
+.bl-main > section:nth-child(3):hover{
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
+}
 .bl-main > section:nth-child(4) {
   top: 0%;
   left: 60%;
   background: url(../images/slide4.jpg) 50%;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
 }
-
+.bl-main > section:nth-child(4):hover{
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
+}
 .bl-main > section:nth-child(5) {
   top: 0%;
   left: 80%;
   background: url(../images/slide5.jpg) 50%;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
 }
-
+.bl-main > section:nth-child(5):hover{
+  -webkit-filter: grayscale(0); /* Chrome, Safari, Opera */
+  filter: grayscale(0);
+}
 .bl-main > section:nth-child(6) {
   top: 0%;
   left: 100%;
@@ -517,7 +547,7 @@ transition: all 0.4s ease;
     padding: 0;
     font-size: 20px;
     font-weight: 700;
-    color: #31B0BC;
+    color: #fff;
     width: auto;
     border-bottom: 3px solid #ccc;
     line-height: 44px;
@@ -940,7 +970,7 @@ font-family: 'GOTHICB';
 }
 .login{
   position: absolute;
-right: 100px;
+right: 180px;
 top: 19px;
 color: #fff;
 font-size: 15px;
@@ -961,4 +991,70 @@ font-size: 15px;
 }
 .login span{
   margin-left: 12px;
+}
+.idioma{
+position: absolute;
+right: 80px;
+top: 19px;
+color: #fff;
+font-size: 15px;
+  font-family: 'GOTHIC';
+  transition: all 0.4s ease;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ -ms-transition: all 0.4s ease;
+}
+.idioma:hover{
+  color: #31B0BC;
+  transition: all 0.4s ease;
+ -webkit-transition: all 0.4s ease;
+ -moz-transition: all 0.4s ease;
+ -o-transition: all 0.4s ease;
+ -ms-transition: all 0.4s ease;
+}
+.idioma .activo{
+  color: #31B0BC;
+}
+.top-img{
+  background-image: url(../images/about2.jpg);
+  height: 500px;
+  background-size: cover;
+}
+.bottom_img{
+  background-image: url(../images/about.jpg);
+  height: 500px;
+  background-size: cover;
+}
+.about-body .col-md-6 h1{
+  font-size: 120px;
+  color: #31B0BC;
+  font-family: 'GOTHICB';
+  opacity: 0.8;
+}
+.title_about{
+  text-align: center;
+  background-image: url(../images/bgabout.png);
+  padding-top: 140px;
+  background-size: 80%;
+  background-position: 50%;
+  height: 500px;
+}
+.text_about{
+  height: 500px;
+  padding: 150px 60px;
+  text-align: justify;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(232,232,232,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType=0 );
+}
+.text_about p{
+  font-size: 16px;
+  font-family: 'GOTHIC';
+  line-height: 27px;
 }
