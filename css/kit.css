@@ -1058,3 +1058,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-family: 'GOTHIC';
   line-height: 27px;
 }
+.link_p{
+  text-align: center;
+  margin-top: 26px;
+}
+.text_about a{
+  padding: 9px 45px;
+border: 1.5px solid #31B0BC;
+color: #31B0BC;
+border-radius: 40px;
+font-size: 16px;
+display: inline-block;
+font-family: 'GOTHIC';
+transition: all 0.4s ease;
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+}
+.text_about a:hover{
+  background: #31B0BC;
+ color: #fff;
+ transition: all 0.4s ease;
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+-ms-transition: all 0.4s ease;
+}
