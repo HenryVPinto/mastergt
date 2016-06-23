@@ -147,11 +147,13 @@ top: 7px;
 .slider_home .carousel-caption {
     right: 0;
     left: 0;
-    padding-bottom: 30px;
+    bottom: 0;
+    padding-bottom: 20px;
     text-align: left;
     padding-left: 80px;
-    font-size: 34px;
+    font-size: 28px;
     font-family: 'GOTHIC';
+    background: rgba(0, 0, 0, 0.48);
 }
 .carousel-control {
     bottom: 0;
