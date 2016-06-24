@@ -140,7 +140,7 @@
             <h2>Event Production</h2>
           </div>
 
-          <div class="bl-content">
+          <div class="bl-content icon-cross">
         <h2>Event Production</h2>
 
             <p>•	Specialize to bring a good experience into your event and bring oriented solutions. <br>
@@ -148,7 +148,7 @@
 	•	Provide all the support your event needs. <br>
 </p>
               <a href="#">View More</a>
-          </div><span class=" icon-cross"></span>
+          </div><span class="icon-cross"></span>
         </section>
 
         <section>
@@ -156,7 +156,7 @@
             <h2>Stage Design</h2>
           </div>
 
-          <div class="bl-content">
+          <div class="bl-content icon-cross">
           <h2>Stage Design</h2>
             <p>• Create design show, with creative ideas to make your stage a unique concept. - You can build your imagination in the real world.</p>
                          <a href="#">View More</a>
@@ -168,7 +168,7 @@
             <h2>2D/3D animation</h2>
           </div>
 
-          <div class="bl-content">
+          <div class="bl-content icon-cross">
         <h2>2D/3D animation</h2>
 
             <p>•	Create the visual concept of your event to achieve convey your ideas to the public through Motion Graphics that will make your event a totally different experience.
@@ -182,7 +182,7 @@
             <h2>Training</h2>
           </div>
 
-          <div class="bl-content">
+          <div class="bl-content icon-cross">
       <h2>Training</h2>
 
             <p>•	Site training and online training of video techniques and video programs that makes you ready to take on any live situation.</p>
@@ -200,7 +200,7 @@
             <h2>Live Video Operator</h2>
           </div>
 
-          <div class="bl-content">
+          <div class="bl-content icon-cross">
               <h2>Live Video Operator</h2>
 <p>
   •	Specialized in the correct reproduction of audiovisual content for your event with knowledge of projection alignment, LED setup, VJing, media server, SMPTE synchronization, video mapping, and the utilization of video hardware.
@@ -225,7 +225,7 @@
 </section>
 <section class="trainig">
 <div class="row">
-<div class="col-md-6  scrollflow -slide-right -opacity">
+<div class="col-md-6">
   <div class="borde">
 
 
@@ -241,7 +241,7 @@
 <a href="#">See More</a>
 </div>
 </div>
-<div class="col-md-6 scrollflow -slide-left -opacity">
+<div class="col-md-6">
 <img src="images/videoback.png" alt="" />
 </div>
 </div>
@@ -679,7 +679,7 @@ var $el = $('#bl-main'),
   // if currently navigating the work items
   isAnimating = false,
   // close work panel trigger
-  $closeWorkItem = $workPanelsContainer.find('nav > span.icon-cross'),
+  $closeWorkItem = $workPanelsContainer.find('nav > .icon-cross'),
   transEndEventNames = {
     'WebkitTransition': 'webkitTransitionEnd',
     'MozTransition': 'transitionend',
@@ -710,7 +710,7 @@ function initEvents() {
         $el.addClass('bl-expand-item');
       }
 
-    }).find('span.icon-cross').on('click', function() {
+    }).find('.icon-cross').on('click', function() {
 
       // close the expanded section and scale up the others
       $section.data('open', false).removeClass('bl-expand').on(transEndEventName, function(event) {

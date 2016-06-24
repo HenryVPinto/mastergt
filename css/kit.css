@@ -348,9 +348,9 @@ padding: 0;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-cross:before {
+/*.icon-cross:before {
     content: "\e900";
-}
+}*/
 .icon-facebook:before {
     content: "\e901";
 }
@@ -592,14 +592,14 @@ color: #fff;
 }
 .bl-main > section .icon-cross {
     position: absolute;
-    top: 20px;
+    /*top: 20px;
     right: 20px;
     cursor: pointer;
     z-index: 100;
     opacity: 0;
     pointer-events: none;
     color: #fff;
-    font-weight: normal;
+    font-weight: normal;*/
 }
 .bl-content, div.bl-panel-items > div > div {
     opacity: 0;
